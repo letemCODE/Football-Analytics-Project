@@ -5,13 +5,13 @@ This project provides informative insights into whether a country's yearly Domes
 The goal is achieved through web scrapping, data cleaning, manipulation, and visualisation using Python programming language and its libraries. 
 
 The project includes two Jupyter notebooks: one for preparing the data and another for visualising the data.  
-- **Data_Aquisition_&_Cleaning .ipynb** 
+- ###**Data_Aquisition_&_Cleaning .ipynb** 
   - Performs Web Scrapping to get the data from the Data Sources 'https://www.teamform.com/' and 'https://raw.githubusercontent.com/martj42/international_results/master/results.csv'.
   - Performs initial Data Exploration, Analytics. Further grouping, aggregating, combining and saving the data.
   - Producing and adding respective League Logo and saving the initial bar plots visualisation.
   - Libraries used in this notebook: pandas, numpy, plotly.express, BeautifulSoup, requests, base64.
     
-- **Football_Data_Notebook.ipynb** 
+- ###**Football_Data_Notebook.ipynb** 
   - Loads the saved data and creates the bar chart that displays the Countries International Performance & their National Football League Rankings.
   - Adds interactive features like sliders and buttons to change the year and highlight country based on footballing region.
   - Libraries used in this notebook: pandas, plotly.express, base64, plotly.graph_objects.
