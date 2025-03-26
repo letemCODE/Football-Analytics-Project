@@ -85,3 +85,8 @@ This project uses the following Python libraries:
    - Open `Football_Data_Notebook.ipynb` in Jupyter Notebook.
    - Use the cleaned dataset (`'int_results.csv'`) to create interactive visualization.
    - Explore trends, correlations, and insights within the plots that shows the Countries International Performance & their National Football League Rankings for each year.
+
+## 8. License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
