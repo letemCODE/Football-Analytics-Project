@@ -5,30 +5,30 @@ This project provides informative insights into whether a country's yearly Domes
 The goal is achieved through web scrapping, data cleaning, manipulation, and visualisation using Python programming language and its libraries. 
 
 The project includes two Jupyter notebooks: one for preparing the data and another for visualising the data.  
-- ###**`Data_Aquisition_&_Cleaning .ipynb`** 
+- **`Data_Aquisition_&_Cleaning .ipynb`** 
   - Performs Web Scrapping to get the data from the Data Sources 'https://www.teamform.com/' and 'https://raw.githubusercontent.com/martj42/international_results/master/results.csv'.
   - Performs initial Data Exploration, Analytics. Further grouping, aggregating, combining and saving the data.
   - Producing and adding respective League Logo and saving the initial bar plots visualisation.
   - Libraries used in this notebook: pandas, numpy, plotly.express, BeautifulSoup, requests, base64.
     
-- ###**Football_Data_Notebook.ipynb** 
+- **`Football_Data_Notebook.ipynb`** 
   - Loads the saved data and creates the bar chart that displays the Countries International Performance & their National Football League Rankings.
   - Adds interactive features like sliders and buttons to change the year and highlight country based on footballing region.
   - Libraries used in this notebook: pandas, plotly.express, base64, plotly.graph_objects.
 
 ## 2. Features
 
-- **Data Cleaning and Extraction**  
-  Clean the dataset by handling missing values, filtering irrelevant data, and transforming it into a suitable format for analysis.
+- **WebScrapping & Data Cleaning**  
+  Obtain the required data from the website through webscrapping and creating the dataset. Cleaning the acquired data by handling missing values, filtering irrelevant data, and transforming it into a suitable format for analysis using the relevent libraries.
 
 - **Data Transformation**  
-  Apply data manipulation techniques to create derived features and perform aggregations.
+  Apply data manipulation techniques to create derived features that illustrate key performance metrics of football teams like win %, perform aggregations and filter the data to get the Top 10 National Leagues for the years 2015 - 2023 and the Top 10 International Football Teams based on win % 2015 - 2023.
 
 - **Interactive Visualizations**  
-  Use Plotly Express to create interactive charts that allow users to explore data in detail (e.g., line plots, bar charts, scatter plots).
+  Use Plotly Express and base64 to create interactive bar charts that allow users to explore and compare in detail the standings of the Nation Leagues and their respective country's team performance based on Year also enabling the viewer to highlight the country's footballing region.
 
-- **Exploratory Data Analysis (EDA)**  
-  Visualize key metrics and relationships in the data to understand underlying patterns.
+- **Exploratory Data Analysis, Grouping and Aggrigating**  
+  Visualize key metrics and relationships in the data to understand underlying patterns. Grouping and aggregating the data to get a 
 
 - **Exporting Cleaned Data**  
   Save the cleaned dataset for further analysis or reporting.
@@ -44,23 +44,17 @@ To run the project locally, follow these steps:
 
 ## 4. Files Included
 
-### 1. `data_cleaning_and_extraction.ipynb`  
-This notebook covers the following steps:
-- Loading raw data.
-- Cleaning data by handling missing values, duplicates, and irrelevant columns.
-- Extracting necessary features for analysis.
-- Saving the cleaned dataset as a new CSV file.
+### 1. `Data_Aquisition_&_Cleaning .ipynb`
+  - Performs Web Scrapping to get the data from the Data Sources 'https://www.teamform.com/' and 'https://raw.githubusercontent.com/martj42/international_results/master/results.csv'.
+  - Performs initial Data Exploration, Analytics. Further grouping, aggregating, combining and saving the data.
+  - Producing and adding respective League Logo and saving the initial bar plots visualisation.
+  - Libraries used in this notebook: pandas, numpy, plotly.express, BeautifulSoup, requests, base64.
+    
+### 2. `Football_Data_Notebook.ipynb`
+  - Loads the saved data and creates the bar chart that displays the Countries International Performance & their National Football League Rankings.
+  - Adds interactive features like sliders and buttons to change the year and highlight country based on footballing region.
+  - Libraries used in this notebook: pandas, plotly.express, base64, plotly.graph_objects.
 
-### 2. `data_visualization.ipynb`  
-This notebook covers:
-- Visualizing key data trends and patterns using Plotly Express.
-- Creating interactive plots to explore different aspects of the data.
-- Generating visual reports to support decision-making.
-
-### 3. `data/`  
-This directory contains the raw dataset for analysis (e.g., `raw_data.csv`).
-
----
 
 ## 5. Data Sources
 
